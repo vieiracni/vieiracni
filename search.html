@@ -7,7 +7,7 @@
     <meta name="keywords" content="Homes, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homes Page | Template</title>
+    <title>Search Page | Template</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
@@ -62,15 +62,14 @@
     </header>
     <!-- Header Section End -->
     <!-- Hero Section Begin -->
-    <section class="hero-section home-page set-bg" data-setbg="img/bg.jpg">
+    <section class="hero-section set-bg search-result" data-setbg="img/bg.jpg">
         <div class="container hero-text text-white">
-            <h2>Find your next</h2>
-            <h1>dream home.</h1>
+            <h2>Search Results</h2>
         </div>
     </section>
     <!-- Hero Section End -->
     <!-- Filter Search Section Begin -->
-    <div class="filter-search">
+    <div class="filter-search search-opt">
         <div class="container ">
             <div class="row">
                 <div class="col-lg-12">
@@ -95,10 +94,10 @@
                             <p>Price</p>
                             <div class="range-slider">
                                 <div id="slider-range">
-                                    <div tabindex="0"
-                                        class="ui-slider-handle ui-corner-all ui-state-default slider-left">50k</div>
-                                    <div tabindex="0"
-                                        class="ui-slider-handle ui-corner-all ui-state-default slider-right">300k</div>
+                                    <span tabindex="0"
+                                        class="ui-slider-handle ui-corner-all ui-state-default slider-left">50k</span>
+                                    <span tabindex="0"
+                                        class="ui-slider-handle ui-corner-all ui-state-default slider-right">300k</span>
                                 </div>
                             </div>
                         </div>
@@ -153,11 +152,34 @@
         </div>
     </div>
     <!-- Filter Search Section End -->
+    <!-- Map Section Begin -->
+    <div class="map-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107002.020096289!2d-96.80666618302782!3d33.06138629992991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21da13c59513%3A0x62aa036489cd602b!2sPlano%2C+TX%2C+USA!5e0!3m2!1sen!2sbd!4v1558246953339!5m2!1sen!2sbd" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map Section End -->
     <!-- Hotel Room Section Begin -->
-    <section class="hotel-rooms spad">
+    <section class="hotel-rooms spad-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-12 p-45">
+                    <div class="found-items">
+                        <h4>We found <span>6</span> properties</h4>
+                        <select class="date-select">
+                            <option value="0">Date New to Old</option>
+                            <option value="1">Old</option>
+                            <option value="2">New</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/1.jpg">
                             <a href="#" class="room-content">
@@ -206,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/2.jpg">
                             <a href="#" class="room-content">
@@ -255,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/3.jpg">
                             <a href="#" class="room-content">
@@ -304,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/4.jpg">
                             <a href="#" class="room-content">
@@ -353,7 +375,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/5.jpg">
                             <a href="#" class="room-content">
@@ -402,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-4 col-md-6">
                     <div class="room-items">
                         <div class="room-img set-bg" data-setbg="img/rooms/6.jpg">
                             <a href="#" class="room-content">
@@ -455,240 +477,8 @@
         </div>
     </section>
     <!-- Hotel Room Section End -->
-    <!-- Popular Room Section Begin -->
-    <section class="popular-room set-bg p-in" data-setbg="img/bg-2.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="slider-active owl-carousel">
-                        <div class="popular-items">
-                            <div class="popular-room-text">
-                                <div class="popular-room-details">
-                                    <div class="popular-room-title">
-                                        <h5>Spacious Modern Smart House</h5>
-                                        <a href="#"><i class="flaticon-placeholder"></i> <span>Location</span></a>
-                                        <a href="#"><i class="flaticon-cursor"></i> <span>Show on Map</span></a>
-                                    </div>
-                                </div>
-                                <div class="popular-room-description">
-                                    <div class="popular-room-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales
-                                            commodo ex sed pellentesque. Aliquam vitae purus sed dolor hendrerit
-                                            vehicula imperdiet sed justo. magna.</p>
-                                    </div>
-                                </div>
-                                <div class="popular-room-features">
-                                    <div class="popular-room-info">
-                                        <div class="size">
-                                            <p>Lot Size</p>
-                                            <img src="img/rooms/size.png" alt="">
-                                            <i class="flaticon-bath"></i>
-                                            <span>2561 sqft</span>
-                                        </div>
-                                        <div class="beds">
-                                            <p>Beds</p>
-                                            <img src="img/rooms/bed.png" alt="">
-                                            <span>9</span>
-                                        </div>
-                                        <div class="baths">
-                                            <p>Baths</p>
-                                            <img src="img/rooms/bath.png" alt="">
-                                            <span>2</span>
-                                        </div>
-                                        <div class="garage">
-                                            <p>Garage</p>
-                                            <img src="img/rooms/garage.png" alt="">
-                                            <span>1</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="popular-room-price">
-                                    <p>For Sale</p>
-                                    <span>$345,000</span>
-                                    <span class="deal">Best Deal</span>
-                                </div>
-                                <a href="#" class="site-btn btn-line">View Property</a>
-                            </div>
-                        </div>
-                        <div class="popular-items">
-                            <div class="popular-room-text">
-                                <div class="popular-room-details">
-                                    <div class="popular-room-title">
-                                        <h5>Spacious Modern Smart House</h5>
-                                        <a href="#"><i class="flaticon-placeholder"></i> <span>Location</span></a>
-                                        <a href="#"><i class="flaticon-cursor"></i> <span>Show on Map</span></a>
-                                    </div>
-                                </div>
-                                <div class="popular-room-description">
-                                    <div class="popular-room-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales
-                                            commodo ex sed pellentesque. Aliquam vitae purus sed dolor hendrerit
-                                            vehicula imperdiet sed justo. magna.</p>
-                                    </div>
-                                </div>
-                                <div class="popular-room-features">
-                                    <div class="popular-room-info">
-                                        <div class="size">
-                                            <p>Lot Size</p>
-                                            <img src="img/rooms/size.png" alt="">
-                                            <i class="flaticon-bath"></i>
-                                            <span>2561 sqft</span>
-                                        </div>
-                                        <div class="beds">
-                                            <p>Beds</p>
-                                            <img src="img/rooms/bed.png" alt="">
-                                            <span>9</span>
-                                        </div>
-                                        <div class="baths">
-                                            <p>Baths</p>
-                                            <img src="img/rooms/bath.png" alt="">
-                                            <span>2</span>
-                                        </div>
-                                        <div class="garage">
-                                            <p>Garage</p>
-                                            <img src="img/rooms/garage.png" alt="">
-                                            <span>1</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="popular-room-price">
-                                    <p>For Sale</p>
-                                    <span>$345,000</span>
-                                    <span class="deal">Best Deal</span>
-                                </div>
-                                <a href="#" class="site-btn btn-line">View Property</a>
-                            </div>
-                        </div>
-                        <div class="popular-items">
-                            <div class="popular-room-text">
-                                <div class="popular-room-details">
-                                    <div class="popular-room-title">
-                                        <h5>Spacious Modern Smart House</h5>
-                                        <a href="#"><i class="flaticon-placeholder"></i> <span>Location</span></a>
-                                        <a href="#"><i class="flaticon-cursor"></i> <span>Show on Map</span></a>
-                                    </div>
-                                </div>
-                                <div class="popular-room-description">
-                                    <div class="popular-room-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales
-                                            commodo ex sed pellentesque. Aliquam vitae purus sed dolor hendrerit
-                                            vehicula imperdiet sed justo. magna.</p>
-                                    </div>
-                                </div>
-                                <div class="popular-room-features">
-                                    <div class="popular-room-info">
-                                        <div class="size">
-                                            <p>Lot Size</p>
-                                            <img src="img/rooms/size.png" alt="">
-                                            <i class="flaticon-bath"></i>
-                                            <span>2561 sqft</span>
-                                        </div>
-                                        <div class="beds">
-                                            <p>Beds</p>
-                                            <img src="img/rooms/bed.png" alt="">
-                                            <span>9</span>
-                                        </div>
-                                        <div class="baths">
-                                            <p>Baths</p>
-                                            <img src="img/rooms/bath.png" alt="">
-                                            <span>2</span>
-                                        </div>
-                                        <div class="garage">
-                                            <p>Garage</p>
-                                            <img src="img/rooms/garage.png" alt="">
-                                            <span>1</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="popular-room-price">
-                                    <p>For Sale</p>
-                                    <span>$345,000</span>
-                                    <span class="deal">Best Deal</span>
-                                </div>
-                                <a href="#" class="site-btn btn-line">View Property</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Popular Room Section End -->
-    <!-- Newslatter Section Begin -->
-    <section class="newslatter-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="newslatter-text">
-                        <img src="img/message.png" alt="">
-                        <h4>Join our mailing to get weekly updates on <br>our exclusive deals.</h4>
-                        <form>
-                            <input type="text" placeholder="Email address">
-                            <button type="submit" class="site-btn news-btn">Subscribe!</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Newslatter Section End -->
-    <!-- Servies Section Begin -->
-    <section class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-side">
-                        <h2><span>Why choose homes?</span><br>Because we we are the best in <br>the business.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id est nec nisl tristique
-                            dignissim semper sed diam. Donec vulputate neque in massa hendrerit, non dignissim ipsum
-                            varius. Mauris dignissim libero ipsum, nec molestie nulla molestie at. Nam imperdiet
-                            hendrerit finibus. Sed porttitor ultricies sagittis. Nullam lobortis nec quam vitae
-                            venenatis. </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="right-side">
-                        <ul>
-                            <li><img src="img/check.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </li>
-                            <li><img src="img/check.png" alt="">Praesent tincidunt diam in ante faucibus tristique.</li>
-                            <li><img src="img/check.png" alt="">Vivamus id nisl sed mi varius lobortis.</li>
-                            <li><img src="img/check.png" alt="">Suspendisse sit amet erat placerat, molestie neque id
-                            </li>
-                            <li><img src="img/check.png" alt="">Fusce pretium libero sit amet ipsum posuere pretium.
-                            </li>
-                            <li><img src="img/check.png" alt="">Praesent tincidunt diam in ante faucibus tristique.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Servies Section End -->
-    <section class="instagram">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Don’t forget to follow us on Instagram @homes</h2>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Footer Section Begin -->
-    <footer class="footer-section">
-        <!-- Rooms Pic Section Begin-->
-        <div class="room-pic">
-            <div class="container-fluid">
-                <div class="row sp-40">
-                    <img src="img/room-pic/1.jpg" alt="">
-                    <img src="img/room-pic/2.jpg" alt="">
-                    <img src="img/room-pic/3.jpg" alt="">
-                    <img src="img/room-pic/4.jpg" alt="">
-                    <img src="img/room-pic/5.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- Rooms Pic Section End -->
+    <footer class="footer-section p-40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center sp-60">
